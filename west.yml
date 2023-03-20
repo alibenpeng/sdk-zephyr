@@ -83,7 +83,7 @@ manifest:
       groups:
         - hal
     - name: hal_nordic
-      revision: fe0be3c3546e136a67264084c0e3edfd7354645a
+      revision: 6c9f23498ee6a225fee049c8c5b2e1ac760bd4a8
       path: modules/hal/nordic
       groups:
         - hal
@@ -176,7 +176,7 @@ manifest:
       revision: 8e303c264fc21c2116dc612658003a22e933124d
       path: modules/lib/lz4
     - name: mbedtls
-      revision: 7fed49c9b9f983ad6416986661ef637459723bcb
+      revision: 6e166050075688fd3cf3d0cb3fc34a1c52df2496
       path: modules/crypto/mbedtls
       groups:
         - crypto
@@ -234,7 +234,7 @@ manifest:
       groups:
         - debug
     - name: trusted-firmware-m
-      revision: 887798f6e67203e6a77059a86edf41bb136a3c0b
+      revision: f2a639c8d1842acb2964a27461f5c9cfdfaa4d16
       path: modules/tee/tf-m/trusted-firmware-m
       groups:
         - tee
@@ -244,12 +244,12 @@ manifest:
       groups:
         - tee
     - name: tf-m-tests
-      revision: bcb53bccccdc05c713aade707e7a8ddad35c210f
+      revision: 0f80a65193ddbbe3f0ac38b33b07b26138c11fa7
       path: modules/tee/tf-m/tf-m-tests
       groups:
         - tee
     - name: psa-arch-tests
-      revision: f4fc2442b8e29e2a03d9899e46e5a3ea3df8c2c9
+      revision: 6a17330e0dfb5f319730f974d5b05f7b7f04757b
       path: modules/tee/tf-m/psa-arch-tests
       groups:
         - tee
